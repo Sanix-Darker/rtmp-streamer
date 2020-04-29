@@ -1,0 +1,1 @@
+rm -rf ./objs ./build && mkdir ./build && make && ./build/micron

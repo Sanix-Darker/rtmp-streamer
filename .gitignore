@@ -1,0 +1,9 @@
+.history
+.vscode
+objs
+build
+*.mp4
+*.out
+*micron*
+*.flv
+*.h264
