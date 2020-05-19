@@ -10,7 +10,7 @@ Nothing have to build, if we are in an C/C++ environment environment, just hit :
 sh ./shells/build.sh
 ```
 
-To Start MICRON, just hit this command :
+To Start RTMP-STREAMER, just hit this command :
 
 ```shell
 sh ./shells/start.sh
