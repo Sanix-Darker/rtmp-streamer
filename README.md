@@ -1,6 +1,6 @@
 ﻿# RTMP-STREAMER
 
-A C++ implementation of a RTMP server.
+A C++ implementation of a RTMP/HTTP-FLV server.
 
 ## How to start
 
@@ -22,13 +22,13 @@ But if you want to build and start at the same time, just hit :
 sh ./shells/build_and_start.sh
 ```
 
-MICRON is composed in 2 main server, the rtmp server for the streaming and the HTTP-FLV server, available on:
+RTMP-STREAMER is composed in 2 main server, the rtmp server for the streaming and the HTTP-FLV server, available on:
 
 - rtmp://127.0.0.1:1935/application/sessionid for the stream.
 - http://127.0.0.1:8080/application/sessionid.flv for the flv serve.
 
 
-## To test streams with ffmpeg
+## To test streams with ffmpeg manually
 
 - Run the camera stream :
 
