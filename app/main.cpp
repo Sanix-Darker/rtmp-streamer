@@ -32,14 +32,14 @@ int main(int argc, char **argv)
 
 	/* http-flv server example */
     // http://127.0.0.1:8080/live/zinzin.flv
-	xop::HttpFlvServer httpFlvServer(&eventLoop, "0.0.0.0", 8080);
+	xop::HttpFlvServer httpFlvServer(&eventLoop, "0.0.0.0", 5391);
 	httpFlvServer.attach(&rtmpServer);
 
 
 	/* socket server */
 	//
-	// xop::TcpServer tcpServer(&eventLoop, "0.0.0.0", 70);
-	// tcpServer.run();
+	xop::TcpServer tcpServer(&eventLoop, "0.0.0.0", 70);
+	tcpServer.run();
 
 	while (1)
 	{
